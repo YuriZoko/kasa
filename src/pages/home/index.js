@@ -1,5 +1,6 @@
-import Source from "../../assets/source.png";
-import "./style.css";
+import Source from '../../assets/source.png';
+import logements from '../../data/logements.json';
+import './style.css';
 
 function Home() {
   return (
@@ -12,8 +13,12 @@ function Home() {
         </div>
       </section>
       <section className="home-container">
-        <p>test</p>
-      </section>
+        {logements.map((logement) => (
+          <div key={logement.id} className="home-card">
+            <h2>{logement.title}</h2>
+          </div>
+        ))}
+    </section>
     </div>
   );
 }
