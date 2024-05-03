@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './assets/header.js'
+import Footer from './assets/footer.js'
 import Home from './pages/home';
 import Page404 from './pages/404';
 import APropos from './pages/a-propos';
@@ -16,6 +17,7 @@ const RoutesComponent = () => {
             <Route path="/logements" element={<Logements />} /> {}
             <Route path="*" element={<Page404 />} /> {}
         </Routes>
+        <Footer />
     </Router>
   );
 };
