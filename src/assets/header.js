@@ -5,21 +5,21 @@ import './style.css';
 
 function Header() {
   return (
-    <header className="nav">
+    <header className="header">
         <Link to="/">
             <img src={logo} alt="Logo Kasa" className="header-logo" />
         </Link>
         <nav className="nav">
             <NavLink
-                activeClassName="active"
+                activeclassname="active"
                 className="link"
-                exact
+                exact="true"
                 to="/"
             >
             Accueil
             </NavLink>
             <NavLink
-                activeClassName="active"
+                activeclassname="active"
                 className="link"
                 to="/a-propos"
             >
