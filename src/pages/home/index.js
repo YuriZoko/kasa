@@ -1,20 +1,19 @@
+import Source from "../../assets/source.png";
+import "./style.css";
 
 function Home() {
   return (
-    <div className="Home">
-      <header className="Home-header">
-        <p>
-          Edit <code>src/Home.js</code> and save to reload.
-        </p>
-        <a
-          className="Home-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <section className="home-title">
+        <div className="home-title-logo">
+          <img src={Source} alt="Kasa" />
+          <div className="overlay"></div>
+          <h1>Chez vous, partout et ailleurs</h1>
+        </div>
+      </section>
+      <section className="home-container">
+        <p>test</p>
+      </section>
     </div>
   );
 }
