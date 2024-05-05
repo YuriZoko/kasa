@@ -92,4 +92,16 @@
        background-color: white;
        margin: 0;
     }
+    .error-title {
+        font-size: 100px;
+        line-height: 130px;
+    }
+    .error-subtitle {
+        font-size: 18px;
+        text-align: center;
+        margin: 0 6rem;
+    }
+    .error-link {
+        font-size: 14px;
+    }
 }
