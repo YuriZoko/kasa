@@ -130,6 +130,7 @@
 }
 .rating .empty-star {
     color: #E3E3E3;
+    font-size: 24px;
 }
 .rating .star-icon {
     margin-right: 15px;
@@ -138,7 +139,6 @@
     position: relative;
     width: 100%;
     height: 100%;
-    max-width: 1240px;
     max-height: 415px;
     margin: auto;
     overflow: hidden;
