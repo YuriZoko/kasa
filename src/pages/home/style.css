@@ -6,27 +6,3 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-
-.home-card {
-    position: relative;
-    display: flex;
-    background: linear-gradient(0deg, #d34545 0%, #FF6060 50%);
-    border-radius: 10px;
-    width: 400px;
-    max-height: 340px;
-    max-width: 400px;
-    height: 340px;
-    flex: 0 0 calc(43.33% - 5rem);
-    margin: 4rem;
-    box-sizing: border-box;
-}
-
-.home-card h2 {
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 700;
-    z-index: 1;
-}
