@@ -2,11 +2,10 @@ import { Link } from 'react-router-dom';
 import './style.css';
 
 function Card({ logement }) {
-    const { id, title } = logement;
     return (
-        <Link to={`/logement/${id}`} className="card-link">
+        <Link to={`/logement/${logement.id}`}>
             <div className="card">
-                <h2>{title}</h2>
+                <h2>{logement.title}</h2>
             </div>
         </Link>
     );

@@ -15,7 +15,7 @@ function Collapse({ title, paragraph }) {
             <div className="collapse-header" onClick={toggleCollapse}>
                 <h2>{title}</h2>
                 <div className={`arrow ${isOpen ? 'open' : ''}`}>
-                <FontAwesomeIcon icon={faChevronUp} />
+                    <FontAwesomeIcon icon={faChevronUp} />
                 </div>
             </div>
             <div className={`collapse-content ${isOpen ? 'opened' : ''}`}>
