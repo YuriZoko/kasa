@@ -2,34 +2,28 @@
 * {
 	font-family: 'Montserrat', sans-serif;
 }
-
 .header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
     margin: 4rem 8rem 4rem 8rem;
 }
-  
 .header-logo {
 	width: 210px;
 }
-
 .nav {
 	display: flex;
 	gap: 60px;
 }
-
 .link {
 	text-decoration: none;
 	color: black;
 	font-weight: 500;
   font-size: 24px;
 }
-
 .link.active {
 	text-decoration: underline;
 }
-
 .footer {
 	background-color: black;
 	color: white;
@@ -37,13 +31,11 @@
 	height: 13rem;
 	margin-top: 2.5rem;
 }
-
 .footer-logo {
 	margin-top: 4rem;
 	height: 2.5rem;
 	filter: brightness(0) invert(1); 
 }
-
 .footer h3 {
 	font-weight: 400;
 }
