@@ -74,3 +74,16 @@
     border-radius: 50%;
     margin-left: 10px;
 }
+.container-collapses {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.container-collapses .collapse-header {
+    width: 80%;
+}
+.container-collapses .collapse p {
+    white-space: pre-wrap;
+    width: 80%;
+}

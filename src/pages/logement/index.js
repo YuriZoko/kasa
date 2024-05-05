@@ -4,6 +4,8 @@ import logements from '../../data/logements.json';
 import Tag from '../../components/tag';
 import StarRating from '../../components/star';
 import '../style.css';
+import Collapse from '../../components/collapse';
+import Carousel from '../../components/carousel';
 
 function Logement() {
     const { id } = useParams();
@@ -19,6 +21,7 @@ function Logement() {
     return (
         <div>
             <section className='container-logement'>
+                <Carousel images={logement.pictures} />
                 <div className="logement-header">
                     <h1 className='logement-title'>{logement.title}</h1>
                     <div className="owner-info">
@@ -38,9 +41,13 @@ function Logement() {
                     </div>
                     <StarRating rating={parseInt(logement.rating)} />
                 </div>
+                <article className="container-collapses">
+                    <Collapse title="Description" paragraph={logement.description} />
+                    <Collapse title="Équipements" paragraph={logement.equipments.join('\n')} />
+                </article>
             </section>
         </div>
-    );
+    );    
 }
 
 export default Logement;
