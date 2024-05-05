@@ -2,13 +2,13 @@ import Source from '../../assets/source.png';
 import logements from '../../data/logements.json';
 import Banner from '../../components/banner';
 import Card from '../../components/card';
-import './style.css';
+import '../style.css';
 
 function Home() {
   return (
     <div>
       <Banner source={Source} texte="Chez vous, partout et ailleurs" />
-      <section className="home-container">
+      <section className="container">
         {logements.map((logement) => (
           <Card key={logement.id} title={logement.title} />
         ))}

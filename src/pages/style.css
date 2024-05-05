@@ -1,3 +1,17 @@
+.container, .container-white {
+    margin: 6rem;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container {
+    background: #F6F6F6;
+}
+.container-white {
+    background: white;
+}
+
 .error {
     text-align: center;
 }
