@@ -12,10 +12,10 @@ const RoutesComponent = () => {
     <Router>
         <Header />
         <Routes>
-            <Route path="/" element={<Home />} /> {}
-            <Route path="/a-propos" element={<APropos />} /> {}
-            <Route path="/logements" element={<Logements />} /> {}
-            <Route path="*" element={<Page404 />} /> {}
+            <Route path="/" element={<Home />} />
+            <Route path="/a-propos" element={<APropos />} />
+            <Route path="/logement/:id" element={<Logements />} />
+            <Route path="*" element={<Page404 />} />
         </Routes>
         <Footer />
     </Router>

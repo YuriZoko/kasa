@@ -10,7 +10,7 @@ function Home() {
 			<Banner source={Source} texte="Chez vous, partout et ailleurs" />
 			<section className="container">
 				{logements.map((logement) => (
-					<Card key={logement.id} title={logement.title} />
+					<Card key={logement.id} logement={logement} />
 				))}
 			</section>
 		</div>

@@ -1,23 +1,11 @@
-
+import { useParams } from 'react-router-dom'; 
 function Logements() {
+    const { id } = useParams();
     return (
-		<div className="Logements">
-			<header className="Logements-header">
-				<p>
-					Edit <code>src/Logements.js</code> and save to reload.
-				</p>
-				<a
-					className="Logements-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React
-				</a>
-			</header>
-		</div>
+        <div>
+            <h2>Logement ID: {id}</h2>
+        </div>
     );
-  }
-  
-  export default Logements;
-  
+}
+
+export default Logements;

@@ -1,11 +1,15 @@
+import { Link } from 'react-router-dom';
 import './style.css';
 
-function Card({ id, title }) {
-	return (
-		<div className="card" key={id}>
-			<h2>{title}</h2>
-		</div>
-	);
+function Card({ logement }) {
+    const { id, title } = logement;
+    return (
+        <Link to={`/logement/${id}`} className="card-link">
+            <div className="card">
+                <h2>{title}</h2>
+            </div>
+        </Link>
+    );
 }
 
 export default Card;
