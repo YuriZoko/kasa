@@ -69,14 +69,14 @@
     align-items: center;
     padding: 10px;
     cursor: pointer;
-    background-color: #f44336;
+    background-color: #FF6060;
     color: #fff;
     height: 50px;
     border-radius: 5px;
 }
   
 .collapse-header:hover {
-    background-color: #d32f2f;
+    background-color: #e85959;
 }
   
 .arrow {
