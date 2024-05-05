@@ -19,7 +19,7 @@
 	text-decoration: none;
 	color: black;
 	font-weight: 500;
-  font-size: 24px;
+  	font-size: 24px;
 }
 .link.active {
 	text-decoration: underline;
@@ -38,4 +38,31 @@
 }
 .footer h3 {
 	font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+	.header {
+		margin: 30px;
+	}
+	.header-logo {
+		width: 150px;
+	}
+	.nav {
+		gap: 20px;
+	}
+	.link {
+		font-size: 12px;
+	}
+	.footer {
+		height: 12rem;
+	}
+	.footer-logo {
+		margin-top: 3rem;
+		height: 2rem;
+	}
+	.footer h3 {
+		font-size: 18px;
+	}
+	.footer-credit span {
+        display: block;
+    }
 }
