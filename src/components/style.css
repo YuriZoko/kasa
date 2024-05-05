@@ -198,4 +198,15 @@
         width: 380px;
         height: 285px;
     }
+    .collapse {
+        display: inline;
+        width: 100%;
+    }
+    .collapse-header {
+        height: 30px;
+        font-size: 13px;
+    }
+    .arrow {
+        font-size: 20px;
+    }
 }
