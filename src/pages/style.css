@@ -107,4 +107,14 @@
     .error-link {
         font-size: 14px;
     }
+    .container-logement {
+        margin: 1.5rem;
+    }
+    .container-collapses {
+        flex-direction: column;
+        order: 2;
+    }
+    .owner-info {
+        order: 3px;
+    }
 }

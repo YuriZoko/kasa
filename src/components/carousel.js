@@ -21,7 +21,7 @@ const Carousel = ({ images }) => {
 			<button className="carousel-control" onClick={goToPreviousSlide}>
 				<FontAwesomeIcon icon={faChevronLeft} />
 			</button>
-			<img className="carousel-image" src={images[currentIndex]} alt={`Slide ${currentIndex}`} />7
+			<img className="carousel-image" src={images[currentIndex]} alt={`Slide ${currentIndex}`} />
 			<div className="carousel-indicator">
 				{currentIndex + 1}/{images.length}
 			</div>
