@@ -39,7 +39,7 @@
     max-width: 400px;
     height: 340px;
     flex: 0 0 calc(43.33% - 5rem);
-    margin: 4rem;
+    margin: 2.5rem;
     box-sizing: border-box;
 }
 
@@ -47,6 +47,7 @@
     width: 400px;
     object-fit: cover;
     object-position: center;
+    border-radius: 10px;
 }
 .card h2 {
     position: absolute;
